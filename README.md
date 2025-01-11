@@ -30,11 +30,13 @@ A Flutter weather application specifically designed for scuba diving locations i
 
 The project follows Clean Architecture principles with the following layers:
 
+```bash
 lib/
-├── models/ # Data models
-├── repositories/ # Data sources and API handling
-├── cubits/ # Business logic and state management
-└── screens/ # UI components
+├── models/         # Data models
+├── repositories/   # Data sources and API handling
+├── cubits/         # Business logic and state management
+└── screens/        # UI components
+```
 
 ## State Management
 
