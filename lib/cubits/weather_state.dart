@@ -29,3 +29,12 @@ class WeatherError extends WeatherState {
   @override
   List<Object?> get props => [message];
 } 
+
+class WeatherNoLocation extends WeatherState {
+  final String message;
+
+  const WeatherNoLocation(this.message);
+
+  @override
+  List<Object?> get props => [message];
+} 

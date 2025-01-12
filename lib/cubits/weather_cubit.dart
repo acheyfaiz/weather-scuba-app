@@ -8,29 +8,36 @@ class WeatherCubit extends Cubit<WeatherState> {
 
   WeatherCubit(this._weatherRepository) : super(WeatherInitial());
 
-  // Hardcoded coordinates for Sipadan Island, Malaysia
-  static const double defaultLat = 4.1150;
-  static const double defaultLon = 118.6292;
-
-  Future<void> getWeather({bool useCurrentLocation = false}) async {
+  // To get weather data
+  Future<void> getWeather({
+    bool useCurrentLocation = false,
+    double? lat,
+    double? lon,
+  }) async {
     emit(WeatherLoading());
     try {
-      double lat = defaultLat;
-      double lon = defaultLon;
+      late double latitude;
+      late double longitude;
 
       if (useCurrentLocation) {
         final position = await _getCurrentLocation();
-        lat = position.latitude;
-        lon = position.longitude;
+        latitude = position.latitude;
+        longitude = position.longitude;
+      } else if (lat != null && lon != null) {
+        latitude = lat;
+        longitude = lon;
+      } else {
+        emit(const WeatherNoLocation("Please select a location"));
       }
 
-      final weather = await _weatherRepository.getWeather(lat, lon);
+      final weather = await _weatherRepository.getWeather(latitude, longitude);
       emit(WeatherLoaded(weather));
     } catch (e) {
       emit(WeatherError(e.toString()));
     }
   }
 
+  // To get user current location
   Future<Position> _getCurrentLocation() async {
     bool serviceEnabled = await Geolocator.isLocationServiceEnabled();
     if (!serviceEnabled) {

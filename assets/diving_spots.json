@@ -1,0 +1,82 @@
+{
+  "diving_spots": [
+    {
+      "name": "Sipadan Island",
+      "latitude": 4.4864,
+      "longitude": 118.6100,
+      "description": "One of the world's top dive spots, known for its rich marine biodiversity."
+    },
+    {
+      "name": "Mabul Island",
+      "latitude": 4.2488,
+      "longitude": 118.6266,
+      "description": "Famous for muck diving and macro marine life photography."
+    },
+    {
+      "name": "Kapalai Island",
+      "latitude": 4.2333,
+      "longitude": 118.6333,
+      "description": "A sandbar with a resort, known for beautiful reefs and crystal-clear waters."
+    },
+    {
+      "name": "Layang-Layang Island",
+      "latitude": 7.2500,
+      "longitude": 113.8500,
+      "description": "Remote atoll, famous for hammerhead sharks and pristine reefs."
+    },
+    {
+      "name": "Redang Island",
+      "latitude": 5.7751,
+      "longitude": 103.0063,
+      "description": "Offers vibrant coral reefs and clear waters, ideal for beginners."
+    },
+    {
+      "name": "Perhentian Islands",
+      "latitude": 5.9142,
+      "longitude": 102.7331,
+      "description": "Popular for snorkeling and scuba diving with vibrant marine life."
+    },
+    {
+      "name": "Tioman Island",
+      "latitude": 2.8182,
+      "longitude": 104.1553,
+      "description": "A marine park with diverse coral reefs and large fish species."
+    },
+    {
+      "name": "Tenggol Island",
+      "latitude": 4.8167,
+      "longitude": 103.6581,
+      "description": "Known for whale shark sightings during the migration season."
+    },
+    {
+      "name": "Mataking Island",
+      "latitude": 4.6194,
+      "longitude": 118.7966,
+      "description": "Offers stunning underwater landscapes, coral gardens, and unique wreck dives."
+    },
+    {
+      "name": "Pom Pom Island",
+      "latitude": 4.5991,
+      "longitude": 118.8491,
+      "description": "A secluded paradise with abundant marine life and coral reefs."
+    },
+    {
+      "name": "Lankayan Island",
+      "latitude": 6.5000,
+      "longitude": 117.8750,
+      "description": "Remote island with spectacular coral reefs and rare critters."
+    },
+    {
+      "name": "Aur Island",
+      "latitude": 2.4391,
+      "longitude": 104.5142,
+      "description": "Popular among experienced divers, known for deep-water diving."
+    },
+    {
+      "name": "Lang Tengah Island",
+      "latitude": 5.7917,
+      "longitude": 103.0622,
+      "description": "Quiet island between Redang and Perhentian, with beautiful dive sites."
+    }
+  ]
+} 
