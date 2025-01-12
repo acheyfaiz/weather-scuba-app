@@ -5,8 +5,8 @@ A Flutter weather application specifically designed for scuba diving locations i
 ## Screenshots
 
 <p float="left">
-  <img src="screenshot/screenshot1.png" width="250" alt="Initial UI" />
-  <img src="screenshot/screenshot2.png" width="250" alt="Location Selection" />
+  <img src="lib/screenshot/screenshot1.png" width="250" alt="Initial UI" />
+  <img src="lib/screenshot/screenshot2.png" width="250" alt="Location Selection" />
 </p>
 
 ## Features
@@ -17,8 +17,7 @@ A Flutter weather application specifically designed for scuba diving locations i
   - Humidity levels
   - Wind speed
   - Precipitation
-- 📍 Dual location support:
-  - Default location: Sipadan Island (Famous Malaysian diving spot)
+- 📍 Location support:
   - Current location detection
 - 🏗️ Clean Architecture implementation
 - 📱 Material Design 3 UI components
@@ -61,7 +60,7 @@ The app uses the Cubit pattern (part of flutter_bloc) for state management, prov
 ## Future Improvements
 
 - [ ] Add more diving locations in Malaysia
-- [✅] Implement weather forecasting
+- [x] Implement weather forecasting
 - [ ] Add water temperature data
 - [ ] Include tide information
 - [ ] Save favorite locations
